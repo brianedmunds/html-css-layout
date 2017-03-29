@@ -4,6 +4,8 @@ div{
   margin-bottom: 10px;
   text-align: center;
   width: 30%;
+  float: left;
+  margin: 10px
 }
 
 p {
@@ -11,7 +13,14 @@ p {
 }
 
 .half {
+  float: left;
 }
 
-.full{
+.half:nth-child(3) {
+  float: none;
+  clear: both;
+  }
+
+.full {
+  clear: right;
 }
